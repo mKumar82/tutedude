@@ -96,9 +96,22 @@ body::-webkit-scrollbar-thumb {
   color: $black;
 }
 
+.nav-ul{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 123.5%;
+text-decoration: none;
+/* or 22px */
+text-align: center;
+color: rgba(128, 0, 128, 0.25);
+}
+
 .first-card {
-  width: 90vw;
-  // height: auto;
+  //width: 90vw;
+  height: 188px;
+  width: 486px;
   border: none;
   padding-bottom: 29px;
 
@@ -176,12 +189,13 @@ body::-webkit-scrollbar-thumb {
 .section2 {
   max-width: 80%;
   h1 {
+    // margin-left: 20px;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
-    margin-left: 10px;
+    // margin-left: 10px;
     /* identical to box height */
 
     color: #800080;
@@ -192,17 +206,20 @@ body::-webkit-scrollbar-thumb {
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
-    max-width: 300px;
+    max-width: 400px;
     height: 3rem;
-    padding: 1.5rem;
+    // padding: 1.8rem;
     /* identical to box height */
-    letter-spacing: 1.5em;
+    letter-spacing: 1.2em;
 
     border: 2px solid transparent;
     border-radius: 20px;
     border-image: linear-gradient(to right, #ff864c 0%, #800080 100%) 1;
 
     color: #000000;
+    overflow: hidden;
+    white-space: nowrap; /* Prevents line breaks */
+    text-overflow: ellipsis;
   }
 }
 
@@ -211,7 +228,7 @@ body::-webkit-scrollbar-thumb {
   h1 {
     font-family: "Poppins";
     font-style: normal;
-    font-weight: 600;
+    font-weight: 900;
     font-size: 24px;
     line-height: 36px;
 
@@ -220,6 +237,7 @@ body::-webkit-scrollbar-thumb {
     color: #800080;
   }
   h5 {
+    // background-color: #4d4d4d;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
@@ -241,7 +259,10 @@ body::-webkit-scrollbar-thumb {
   }
 }
 .img-background {
-  background-image: url(./images/Ellipse\ 132.png);
+  background-image: url(./images/bg.png);
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .footer-text1,
 .footer-text2 {

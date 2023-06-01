@@ -8,7 +8,7 @@ const Dashboard = () => {
     <>
       <div className="container mt-5">
         <div className="row">
-          <div className="col section1 col-md-6">
+          <div className="col col-md-6">
             <div className=" d-flex justify-content-center">
               <div className="card first-card">
                 <div className="row mt-3 mx-auto">
@@ -38,7 +38,7 @@ const Dashboard = () => {
               <h1>Your Referral Code</h1>
               <div
                 className="d-flex justify-content-center align-items-center letter"
-                style={{ margin: "0 auto" }}
+                // style={{ margin: "0 auto" }}
               >
                 EDCH54
               </div>
@@ -53,14 +53,14 @@ const Dashboard = () => {
               <div className="col-lg-5">
                 <div className="card mb-3 border-0" style={{ maxWidth: 540 }}>
                   <div className="row g-0">
-                    <div className="col-2  img-background  d-flex flex-column justify-content-center align-items-center">
+                    <div className="col-3  img-background  d-flex flex-column justify-content-center align-items-center ">
                       <img
                         src={invite}
                         className="img-fluid rounded-start"
                         alt="..."
                       />
                     </div>
-                    <div className="col-10">
+                    <div className="col-9">
                       <div className="card-body">
                         <h5 className="card-title">Invite your Friends</h5>
                         <p className="card-text">
@@ -74,14 +74,14 @@ const Dashboard = () => {
               <div className="col-lg-5">
                 <div className="card mb-3 border-0" style={{ maxWidth: 540 }}>
                   <div className="row g-0">
-                    <div className="col-2  img-background  d-flex flex-column justify-content-center align-items-center">
+                    <div className="col-3  img-background  d-flex flex-column justify-content-center align-items-center">
                       <img
                         src={refer}
                         className="img-fluid rounded-start"
                         alt="..."
                       />
                     </div>
-                    <div className="col-10">
+                    <div className="col-9">
                       <div className="card-body">
                         <h5 className="card-title">
                           Friend purchases any course
@@ -99,14 +99,14 @@ const Dashboard = () => {
               <div className="col-lg-5">
                 <div className="card mb-3 border-0" style={{ maxWidth: 540 }}>
                   <div className="row g-0">
-                    <div className="col-2  img-background  d-flex flex-column justify-content-center align-items-center">
+                    <div className="col-3  img-background  d-flex flex-column justify-content-center align-items-center">
                       <img
                         src={rupee}
                         className="img-fluid rounded-start"
                         alt="..."
                       />
                     </div>
-                    <div className="col-10">
+                    <div className="col-9">
                       <div className="card-body">
                         <h5 className="card-title">
                           You get ₹ 200 as referral money
@@ -123,14 +123,14 @@ const Dashboard = () => {
               <div className="col-lg-5">
                 <div className="card mb-3 border-0" style={{ maxWidth: 540 }}>
                   <div className="row g-0">
-                    <div className="col-2  img-background  d-flex flex-column justify-content-center align-items-center">
+                    <div className="col-3  img-background  d-flex flex-column justify-content-center align-items-center">
                       <img
                         src={discount}
                         className="img-fluid rounded-start"
                         alt="..."
                       />
                     </div>
-                    <div className="col-10">
+                    <div className="col-9">
                       <div className="card-body">
                         <h5 className="card-title">
                           Your Friend gets ₹ 200 Off
@@ -149,14 +149,14 @@ const Dashboard = () => {
               <div className="col-lg-5">
                 <div className="card mb-3 border-0" style={{ maxWidth: 540 }}>
                   <div className="row g-0">
-                    <div className="col-2  img-background  d-flex flex-column justify-content-center align-items-center">
+                    <div className="col-3  img-background  d-flex flex-column justify-content-center align-items-center">
                       <img
                         src={wallet}
                         className="img-fluid rounded-start"
                         alt="..."
                       />
                     </div>
-                    <div className="col-10">
+                    <div className="col-9">
                       <div className="card-body">
                         <h5 className="card-title">
                           Transfer money from wallet
